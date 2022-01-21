@@ -1,3 +1,15 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 10%;
+    
+    
+}
+
+
+
+
 .attribution {
     font-size: 11px;
     text-align: center;
@@ -15,34 +27,29 @@ body {
     color: hsl(215, 51%, 70%);
 }
 
-.middlebox {
-    background-color: hsl(216, 50%, 16%);
+
+#equilibrium {
     width: 80%;
+    max-height: 50%;
     margin: 10%;
     border-radius: 10%;
-    outline: 2px red solid;
-
-}
-
-img {
-    width: 80%;
-    margin: 10%;
-
-    border-radius: 10%;
-
-
+    outline: 2px yellow solid;
+    border: 2px springgreen dashed;
+    
 }
 
 h1 {
     color: hsl(0, 0%, 100%);
     outline: 2px green solid;
-    margin: 10%;
+    text-align: left;
+    width: 80%;
+    margin: auto;
 }
 
 
 p {
     outline: 2px magenta dashed;
-    margin: 10%;
+    margin: 0 10% 0 10%;
 
 }
 
