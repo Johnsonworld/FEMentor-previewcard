@@ -33,8 +33,8 @@ Screenshot of desktop version.
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Johnsonworld Code](https://johnsonworld.github.io/fementor-previewcard/)
+- Live Site URL: [Johnsonworld Live Site](https://johnsonworld.github.io/fementor-previewcard/)
 
 ## My process
 
@@ -71,10 +71,6 @@ I feel very comfortable with HTML, less so with CSS - specifically in layout and
 - [CSS image overlay](https://www.w3schools.com/howto/howto_css_image_overlay.asp) - This helped me work through the image overlay.
 
 
-## Author
-
-- Website - [Johnsonworld](https://johnsonworld.github.io/fementor-previewcard/)
-- Frontend Mentor - [@Johnsonworld](https://www.frontendmentor.io/profile/Johnsonworld)
 
 
 
