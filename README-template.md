@@ -12,13 +12,11 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
+
+This is a Frontend Mentor challenge to create an NFT preview card in both mobile and desktop sizing.
 
 ### The challenge
 
@@ -29,15 +27,9 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./images/completed-screenshot.jpg)
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+Screenshot of desktop version.
 
 ### Links
 
@@ -46,6 +38,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ## My process
 
+I built out the semantic HTML markup first, then css.  With CSS I focused on the layout elements and attributes first and then display and typography.  Finally I built the hover elements and styled.
+
 ### Built with
 
 - Semantic HTML5 markup
@@ -53,59 +47,35 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+- Media query
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+I decided to just use HTML and CSS for this challenge and wanted to focus on positioning. I learned that if I don't compartmentalize and focus on layout first, too many balls will be up in the air and it'll get too confusing.  I also learned that throwing everything at it but the kitchen sink is not a good process when something is not working.  Will use developer tools to troubleshoot better, I've learned new ways to do that.  
 
-To see how you can add code snippets, see below:
+The process of overlaying the image and hovering was very useful and helped me understand more about pseudo-classes work and positioning.  
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
+Next time (or if I refactor), I will try the following:
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+- Using Bootstrap card library
+- Trying to do it with out using absolute or relative positioning, and focusing on Flexbox and Grid for the whole layout.
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+I feel very comfortable with HTML, less so with CSS - specifically in layout and when to use float vs. flexbox vs. grid.  I'm going to try and just focus on flexbox and grid (and get comfortable with one before working more with the other) and not worry too much about float.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- Various Kevin Powell videos on YouTube for CSS.
+- [CSS image overlay](https://www.w3schools.com/howto/howto_css_image_overlay.asp) - This helped me work through the image overlay.
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Johnsonworld](https://johnsonworld.github.io/fementor-previewcard/)
+- Frontend Mentor - [@Johnsonworld](https://www.frontendmentor.io/profile/Johnsonworld)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
-## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
 
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**

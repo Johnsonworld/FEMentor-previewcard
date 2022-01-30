@@ -1,0 +1,164 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: #14253d;
+    color: #8bacda;
+    font-weight: 300;
+    height: 100vh;
+    margin-top: 4rem;
+}
+
+main {
+    background-color: #2f415b;
+    border-radius: 5%;
+    box-shadow: 10px 15px 20px 20px #0d192b;
+    display: flex;
+    flex-direction: column;
+    margin: 3rem 1.5rem;
+}
+
+.img-container {
+    border-radius: 5%;
+    margin: 1.25rem;
+    position: relative;
+}
+
+.image {
+    border-radius: 5%;
+    width: 100%;
+}
+
+.middle {
+    background-color: hsl(178, 100%, 50%);
+    border-radius: 5%;
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    top: 0%;
+    transition: .5s ease;
+    width: 100%;
+}
+
+.img-container:hover .image, 
+.img-container:hover .eye {
+    opacity: 1;
+}
+
+.img-container:hover .middle {
+    opacity: .3;
+}
+
+.eye {
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    color: white;
+    left: 50%;
+    opacity: 0;
+    padding: 16px 32px;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card-title {
+    color: hsl(0, 0%, 100%);
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin: 0 1.25rem;
+    padding: .5rem 0;
+    text-decoration: none;
+}
+
+.card-title:hover, .callout-text:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+p {
+    /* flex-wrap: wrap; */
+    font-size: .9rem;
+    margin: 1.25rem;
+}
+
+.offer-data {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 1.25rem;
+}
+
+.pricing {
+    color: hsl(178, 100%, 50%);
+    font-weight: 600;
+    text-align: left;
+}
+
+.time-remaining {
+    font-size: .9rem;
+    text-align: right;
+}
+
+hr.solid {
+    border-color: hsl(215, 51%, 70%);
+    margin: 0 1.25rem;
+}
+
+#credits {
+    font-size: .9rem;
+}
+
+#avatar {
+    border-radius: 50%;
+    border: 2px solid hsl(0, 0%, 100%);
+    height: 1.75rem;
+    margin: 1.5rem 1.25rem;
+    vertical-align: middle;
+    width: 1.75rem;
+}
+
+.callout-text {
+    color: hsl(0, 0%, 100%);
+    font-size: .9rem;
+    text-decoration: none;
+}
+
+.attribution {
+    font-size: .75rem;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+    font-size: .75rem;
+}
+
+@media screen and (min-width: 375px) {
+    main {
+        margin: auto;
+        width: 321px;
+    }
+
+    .attribution {
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (max-width: 374px) {
+    #credits {
+        font-size: .75rem;
+    }
+
+    #avatar {
+        width: 1.5rem;
+        height: 1.5rem;
+        margin: 1.5rem 1rem 1.5rem 1.25rem;
+
+    }
+}
