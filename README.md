@@ -33,8 +33,8 @@ Screenshot of desktop version.
 
 ### Links
 
-- Solution URL: [Johnsonworld Code](https://johnsonworld.github.io/fementor-previewcard/)
-- Live Site URL: [Johnsonworld Live Site](https://johnsonworld.github.io/fementor-previewcard/)
+- Solution URL: [Johnsonworld NFT Previewcard Code](https://github.com/Johnsonworld/fementor-previewcard)
+- Live Site URL: [Johnsonworld NFT Previewcard Live Site](https://johnsonworld.github.io/fementor-previewcard/)
 
 ## My process
 
