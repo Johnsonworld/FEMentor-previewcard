@@ -10,7 +10,7 @@
 }
 
 body {
-    background-color: #14253d;
+    background-color: hsl(217, 54%, 11%);
     color: #8bacda;
     font-weight: 300;
     height: 100vh;
@@ -18,9 +18,9 @@ body {
 }
 
 main {
-    background-color: #2f415b;
+    background-color: hsl(216, 50%, 16%);
     border-radius: 5%;
-    box-shadow: 10px 15px 20px 20px #0d192b;
+    box-shadow: 0px 5px 25px -2px black;
     display: flex;
     flex-direction: column;
     margin: 3rem 1.5rem;
@@ -48,7 +48,7 @@ main {
     width: 100%;
 }
 
-.img-container:hover .image, 
+/* .img-container:hover .image,  */
 .img-container:hover .eye {
     opacity: 1;
 }
