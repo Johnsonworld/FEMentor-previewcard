@@ -30,6 +30,9 @@ main {
     border-radius: 5%;
     margin: 1.25rem;
     position: relative;
+    /* added these two attributes after a callout on FEM, it fixes the slight overlap on hover! */
+    overflow:hidden;
+    line-height:0;
 }
 
 .image {
